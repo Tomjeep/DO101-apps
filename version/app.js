@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2 of the app.' + '\n';
+    response = 'Hola mcis! saludos desde los containers de Red Hat!.' + '\n';
 
     //send the response to the client
     res.send(response);
